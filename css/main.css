@@ -140,6 +140,15 @@ textarea {
      line-height: 1.285;
    }
 
+
+   img {
+ width: 100%;
+}
+
+  figure {
+ margin: 0;
+}
+
    address {
     font-style: normal;
    }
@@ -174,6 +183,15 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
    }
+
+   header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 
    .header-divider {
      background: #3a3a3a;
@@ -575,7 +593,7 @@ textarea {
 
      aside .content-wrapper .form-description,
      aside .content-wrapper .form {
-       width: 40%;
+       width: 35%;
        margin: 0;
      }
 
@@ -658,6 +676,10 @@ textarea {
 
       .mission-content p {
         width: 45%;
+      }
+
+      .map figure {
+        padding-bottom: 45.5%;
       }
 
       .contact-section .content-wrapper h2 {
@@ -768,6 +790,10 @@ textarea {
       /* ==========================================================================
       About Page
       ========================================================================== */
+
+      .map figure {
+        padding-bottom: 37.5%;
+      }
 
       .mission h2,
       .contact-section .content-wrapper h2 {
